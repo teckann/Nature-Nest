@@ -4,7 +4,7 @@ A luxury bungalow booking platform offering immersive accommodations and conveni
 
 ## 🌄 Overview
 
-**NatureNest** is a modern, full-stack web application designed to provide a premium, nature-inspired bungalow booking experience. Users can browse luxury bungalows, check availability, and easily book through a beautifully designed, user-friendly interface.
+**NatureNest** is a modern, full-stack web application designed to provide a premium, nature-inspired cabin booking experience. Users can browse luxury cabins, check availability, and easily book through a beautifully designed, user-friendly interface.
 
 ## ✨ Features
 
