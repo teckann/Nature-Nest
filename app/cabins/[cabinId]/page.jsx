@@ -58,7 +58,7 @@ export default async function Page({ params }) {
       <Cabin cabin={cabin} />
 
       <div>
-        <h2 className="text-5xl font-semibold text-center mb-10 text-accent-400">
+        <h2 className="text-3xl sm:text-5xl font-semibold text-center mb-10 text-accent-400">
           Reserve Cabin {cabin.name} today. Pay on arrival.
         </h2>
 

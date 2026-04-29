@@ -8,7 +8,7 @@ function UpdateReservationForm({ booking, maxCapacity }) {
   return (
     <form
       action={updateReservation}
-      className="bg-primary-900 py-8 px-12 text-lg flex gap-6 flex-col"
+      className="bg-primary-900 py-8 px-6 sm:px-12 text-lg flex gap-6 flex-col"
     >
       <input type="hidden" name="bookingId" value={id} />
 

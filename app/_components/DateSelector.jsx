@@ -34,26 +34,28 @@ function DateSelector({ settings, bookedDates, cabin }) {
 
   return (
     <div className="flex flex-col justify-between">
-      <DayPicker
-        className="pt-12 place-self-center"
-        mode="range"
-        onSelect={setRange}
-        selected={displayRange}
-        min={minBookingLength + 1}
-        max={maxBookingLength}
-        fromMonth={new Date()}
-        fromDate={new Date()}
-        toYear={new Date().getFullYear() + 5}
-        captionLayout="dropdown"
-        numberOfMonths={2}
-        disabled={(curDate) =>
-          isPast(curDate) ||
-          bookedDates.some((date) => isSameDay(date, curDate))
-        }
-      />
+      <div className="overflow-x-auto pb-4">
+        <DayPicker
+          className="pt-12 place-self-center"
+          mode="range"
+          onSelect={setRange}
+          selected={displayRange}
+          min={minBookingLength + 1}
+          max={maxBookingLength}
+          fromMonth={new Date()}
+          fromDate={new Date()}
+          toYear={new Date().getFullYear() + 5}
+          captionLayout="dropdown"
+          numberOfMonths={2}
+          disabled={(curDate) =>
+            isPast(curDate) ||
+            bookedDates.some((date) => isSameDay(date, curDate))
+          }
+        />
+      </div>
 
-      <div className="flex items-center justify-between px-8 bg-accent-500 text-primary-800 h-[72px]">
-        <div className="flex items-baseline gap-6">
+      <div className="flex items-center justify-between px-4 sm:px-8 bg-accent-500 text-primary-800 h-[auto] py-4 sm:h-[72px]">
+        <div className="flex flex-col sm:flex-row items-baseline gap-2 sm:gap-6">
           <p className="flex gap-2 items-baseline">
             {discount > 0 ? (
               <>

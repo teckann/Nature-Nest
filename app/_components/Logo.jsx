@@ -14,13 +14,14 @@ function Logo() {
       {/* <Image src="/logo.png" height="60" width="60" alt="The Wild Oasis logo" /> */}
       <Image
         src={logo}
-        height="60"
-        width="60"
+        height="40"
+        width="40"
         quality={75}
+        className="sm:h-15 sm:w-15"
         alt="The Wild Oasis Logo"
       />
 
-      <span className="text-xl font-semibold text-primary-100">
+      <span className="text-lg sm:text-xl font-semibold text-primary-100">
         The Wild Oasis
       </span>
     </Link>

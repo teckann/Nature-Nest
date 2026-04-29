@@ -32,12 +32,12 @@ function SideNavigation() {
   // console.log(pathName);
 
   return (
-    <nav className="border-r border-primary-900">
-      <ul className="flex flex-col gap-2 h-full text-lg">
+    <nav className="border-b md:border-b-0 md:border-r border-primary-900">
+      <ul className="flex flex-row md:flex-col gap-2 h-full text-lg overflow-x-auto">
         {navLinks.map((link) => (
           <li key={link.name}>
             <Link
-              className={`py-3 px-5 hover:bg-primary-900 hover:text-primary-100 transition-colors flex items-center gap-4 font-semibold text-primary-200 ${pathName === link.href ? "bg-primary-900" : ""}`}
+              className={`py-3 px-5 hover:bg-primary-900 hover:text-primary-100 transition-colors flex items-center gap-4 font-semibold text-primary-200 whitespace-nowrap ${pathName === link.href ? "bg-primary-900 text-primary-100" : ""}`}
               href={link.href}
             >
               {link.icon}
@@ -46,7 +46,7 @@ function SideNavigation() {
           </li>
         ))}
 
-        <li className="mt-auto">
+        <li className="hidden md:block md:mt-auto">
           {/* server action: it can be call by client & run in server */}
           <SignOutButton />
         </li>
