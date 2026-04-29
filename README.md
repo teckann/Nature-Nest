@@ -36,7 +36,9 @@ A luxury cabin booking platform offering immersive accommodations and convenient
 
 ### Backend/Service
 
-* Supabase (Authentication & Database, Google OAuth Authentication)
+* Supabase (Database)
+
+* NextAuth (Google OAuth Authentication)
 
 * PostgreSQL
 
