@@ -1,6 +1,6 @@
 # NatureNest 🌿
 
-A luxury bungalow booking platform offering immersive accommodations and convenient booking services in the scenic highlands of Cameron Highlands, Malaysia.
+A luxury cabin booking platform offering immersive accommodations and convenient booking services in the scenic highlands of Cameron Highlands, Malaysia.
 
 ## 🌄 Overview
 
