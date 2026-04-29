@@ -12,14 +12,14 @@ const font = Josefin_Sans({
 // metadata: is one of the Next.js convention
 export const metadata = {
   title: {
-    template: "%s | The Wild Oasis",
-    default: "Welcome | The Wild Oasis",
+    template: "%s | NatureNest",
+    default: "Welcome | NatureNest",
   },
   icons: {
     icon: "/favicon.ico",
   },
   description:
-    "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dark forest",
+    "A luxury cabin booking platform offering immersive stays and seamless reservations in the scenic highlands of Cameron Highlands, Malaysia.",
 };
 
 export default function RootLayout({ children }) {

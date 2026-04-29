@@ -22,7 +22,7 @@ function Logo() {
       />
 
       <span className="text-lg sm:text-xl font-semibold text-primary-100">
-        The Wild Oasis
+        NatureNest
       </span>
     </Link>
   );

@@ -50,12 +50,11 @@ export default async function Page({ searchParams }) {
         Our Luxury Cabins
       </h1>
       <p className="text-primary-200 text-base sm:text-lg mb-10">
-        Cozy yet luxurious cabins, located right in the heart of the Italian
-        Dolomites. Imagine waking up to beautiful mountain views, spending your
-        days exploring the dark forests around, or just relaxing in your private
-        hot tub under the stars. Enjoy nature&apos;s beauty in your own little
-        home away from home. The perfect spot for a peaceful, calm vacation.
-        Welcome to paradise.
+        Cozy yet luxurious cabins nestled in the scenic highlands of Cameron
+        Highlands, Malaysia. Wake up to breathtaking hilltop views, explore lush
+        greenery and misty forests, or unwind in peaceful comfort surrounded by
+        cool mountain air. Experience nature’s beauty in your own private
+        retreat—the perfect destination for a relaxing and memorable getaway.
       </p>
 
       <div className="flex justify-start sm:justify-end mb-8 overflow-x-auto pb-2">
