@@ -61,7 +61,7 @@ function DateSelector({ settings, bookedDates, cabin }) {
               <>
                 <span className="text-2xl">RM {regularPrice - discount}</span>
                 <span className="line-through font-semibold text-primary-700">
-                  ${regularPrice}
+                  RM {regularPrice}
                 </span>
               </>
             ) : (
